@@ -4,8 +4,9 @@ import 'package:google_fonts/google_fonts.dart';
 class TourismView extends StatelessWidget {
   final String? imagepath;
   final String? title;
+  final String? extraimage;
 
-  TourismView({this.imagepath, this.title});
+  TourismView({this.imagepath, this.title,this.extraimage});
 
   @override
   Widget build(BuildContext context) {
@@ -32,8 +33,8 @@ class TourismView extends StatelessWidget {
                 color: Colors.black,
                 fontWeight: FontWeight.bold),
           ),
-        )
-      ],
+        ),
+    ]
     );
   }
 }

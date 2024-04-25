@@ -28,6 +28,7 @@ class TourismHome extends StatelessWidget {
               child: TourismView(
                 imagepath: home[index].image,
                 title: home[index].name,
+               extraimage: home[index].extraimage,
               ),
             );
       }),

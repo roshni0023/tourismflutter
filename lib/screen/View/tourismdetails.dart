@@ -42,6 +42,27 @@ class TourismDetails extends StatelessWidget {
                       fontSize: 16.0,
                     ),
                   ),
+                  SizedBox(height: 8.0),
+                  Text(
+                    "place To vist",
+                    style: TextStyle(
+                      fontSize: 16.0,color: Colors.red,
+                    ),
+                  ),
+                  SizedBox(height: 6.0,width: 6.0),
+                  Image.network(
+                    tourism.extraimage?? "",
+                    height: 200.0,
+                    width: MediaQuery.of(context).size.width,
+                    fit: BoxFit.cover,
+                  ),
+                  SizedBox(height: 8.0),
+                  Text(
+                    "Press to Explore",
+                    style: TextStyle(
+                      fontSize: 16.0,
+                    ),
+                  ),
                 ],
               ),
             ),
